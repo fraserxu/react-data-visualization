@@ -1,0 +1,29 @@
+{
+  "name": "react-data-visualization",
+  "version": "1.0.0",
+  "description": "A repo to demonstration using react to do data-visualization",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify react/App.js -t babelify -o react/bundle.js",
+    "watch": "watchify react/App.js -t babelify -o react/bundle.js -dv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fraserxu/react-data-visualization.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fraserxu/react-data-visualization/issues"
+  },
+  "homepage": "https://github.com/fraserxu/react-data-visualization",
+  "dependencies": {
+    "d3": "^3.5.5",
+    "react": "^0.13.3",
+    "react-chartist": "^0.6.1"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.2",
+    "browserify": "^10.2.3"
+  }
+}
